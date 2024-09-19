@@ -1,0 +1,59 @@
+#### INDEX ####
+<h1 class="heading">Welcome to Palmetto Prestige rentals!</h1>
+    <p>Welcome to Palmetto Prestige Rentals! - The best Exotic vehicle rental in Charleston!</p>
+
+     <ul>
+        <li><a href="index.html">Home Page</a>
+        <li><a href="about.html">About Us</a>
+        <li><a href="ourfleet.html">Our Fleet</a>
+    </ul>
+
+
+    .heading2 {
+    font-size: 30px;
+    color: white;
+    position: relative;
+    z-index: 100;
+}
+
+#### ABOUT ####
+
+ <nav> <ul>
+            <li><a href="index.html">Home Page</a>
+        </ul>
+    </nav>
+
+#### NAVBAR (OLD) ###
+
+.navbar ul{
+    list-style-type: none;
+    background-color: hsla(0, 0%, 25%, 0.806);
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    z-index: 101;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    position: fixed;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    width: 100%;
+    align-items: center;
+    z-index: 1000;
+}
+.navbar a:hover{
+    background-color: hsl(0, 0%, 10%);
+    
+}
+.navbar li{
+    float: left;
+}
