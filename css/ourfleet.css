@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    color: white;
+}
+
+.navbar {
+    background-color: #333;
+    color: white;
+}
+
+.fleet-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 3rem;                   
+}
+
+.car-card {
+    background-color: #1c1c1c;
+    border-radius: 8px;
+    padding: 1.5rem;
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;   
+}
+
+.car-card:hover {
+    transform: translateY(-10px);
+}
+
+.car-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;                
+    margin-bottom: 1rem;   
+}
+
+.car-title {
+    font-size: 1.2rem;      
+    margin-bottom: 1rem;               
+    color: #ccc;                       
+}
+
+.car-description {
+    margin-bottom: 0.5rem;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    z-index: 1000;
+}
+
+.book-button {
+    background-color: #007bff; 
+    border: none;
+    padding: 0.75rem 1.5rem;
+    color: white;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.book-button:hover {
+    background-color: #0056b3;         
+}
+
+.book-button:active {
+    background-color: #28a745;         
+    color: white;
+}
+
+.booked {
+    background-color: #28a745 !important;  
+    cursor: default;   
+}

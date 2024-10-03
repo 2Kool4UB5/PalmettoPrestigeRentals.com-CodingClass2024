@@ -57,3 +57,5 @@
 .navbar li{
     float: left;
 }
+
+768 X 432

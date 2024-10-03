@@ -90,6 +90,15 @@ img:nth-of-type(4) {
     position: relative;
     z-index: 100;
 }
+
+.heading3 {
+    font-family: Century Gothic;
+    font-style: italic;
+    font-size: 15px;
+    color: white;
+    position: relative;
+    z-index: 100;
+}
 .navbar {
     position: relative;  
     z-index: 1000;       
@@ -97,4 +106,21 @@ img:nth-of-type(4) {
     top: 0;
     left: 0;             
     background-color: #333; 
+}
+
+.container2 {
+    display: flex;  
+    justify-content: center;           
+    height: 40vh;            
+    position: relative;
+    z-index: 1000; 
+}
+
+.card {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    background-color: #0b0b0b;
+    
 }
